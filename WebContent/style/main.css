@@ -1,0 +1,133 @@
+header {
+	text-align: center;
+	background-color: #222831;
+	position: relative;
+	display: block;
+	height: 150px;
+	width: 100%;
+	border-bottom:5px solid #0e1115;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+body { 
+	text-align: center; 
+	background-color:#0e1115;
+}
+
+.photosTable {
+	border-collapse:separate; 
+	border-spacing:2em;
+	position: relative;
+	margin: 0 auto;
+}
+.photocontent {  
+	position: relative;
+	margin: 0 auto;
+	display:block;
+	overflow:auto; 
+	width: 100%; 
+	background-color: #393e46; 
+	align: center;
+	color: #c3c6ca;
+}
+footer {
+	position: relative;
+	width: 100%;
+	background-color: #181818;
+	text-align: center;
+	vertical-align: middle;
+	border-top: 5px solid #5f6061;
+	height: 50px;
+	font-size: 11px;
+	color: #5f6061;
+	user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+img {
+	border: none;
+}
+#rateText {
+	font-size:26px;	
+}
+
+#photoTitle {
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+}
+
+.button input {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 22px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #212121;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.button input:hover {
+  background-color: #00000;
+}
+
+.button input:active {
+  background-color: #212121;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.rating {
+	font-size: 22px;
+	color: gray;
+	font-weight: bold;
+}
+
+
+.dropdownmenu ul, .dropdownmenu li {
+	margin: 0;
+	padding: 0;
+	text-align:center;
+}
+.dropdownmenu ul {
+	background: gray;
+	list-style: none;
+	background: #0e1115;
+	display:inline-block;
+}
+.dropdownmenu li {
+	float: left;
+	position: relative;
+	width:auto;
+	padding:0 30px
+}
+.dropdownmenu a {
+	background: #0e1115;
+	color: #FFFFFF;
+	display: block;
+	font: bold 14px/20px sans-serif;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
+}
+.dropdownmenu li:hover a {
+	background: #000000;
+}
+
+
+
+
+
